@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains data related to trains, coaches, and railway stations in Bangladesh. The information is provided in both English and Bengali, formatted as JSON files.
+This repository contains data related to trains, coaches, classes and railway stations in Bangladesh. The information is provided in both English and Bengali, formatted as JSON files.
 
 ## Files
 
@@ -10,18 +10,24 @@ This repository contains data related to trains, coaches, and railway stations i
 - **`trains_bn.json`**: Train names and numbers in Bengali.
 - **`coaches_en.json`**: Coach names in English.
 - **`coaches_bn.json`**: Coach names in Bengali.
+- **`classes_en.json`**: Class names in English.
+- **`classes_bn.json`**: Class names in Bengali.
 - **`stations_en.json`**: Station names in English.
 - **`stations_bn.json`**: Station names in Bengali.
 
 ## Example Data
 
 ### Train Data
-- English: "AGHNIBINA EXPRESS (735)"
-- Bengali: "অগ্নিবীণা এক্সপ্রেস (৭৩৫)"
+- English: "SONAR BANGLA EXPRESS (787)"
+- Bengali: "সোনার বাংলা এক্সপ্রেস (৭৮৭)"
 
-### Coach Codes
-- English: "KA", "XTR1"
-- Bengali: "ক", "এক্সট্রা-১"
+### Coach Names
+- English: "KA", "SCHA"
+- Bengali: "ক", "ছ"
+
+### Class Names
+- English: "SHOVAN", "SNIGDHA"
+- Bengali: "শোভন", "স্নিগ্ধা"
 
 ### Station Names
 - English: "Dhaka", "Chattogram"
