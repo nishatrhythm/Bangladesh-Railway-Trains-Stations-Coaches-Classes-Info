@@ -15,8 +15,6 @@ Atharabari
 Azampur
 Azim Nagar
 B Sirajul Islam
-BBSetu_E
-BBSetu_W
 Badarganj
 Badherhat
 Badiakhali
@@ -29,6 +27,8 @@ Baramchal
 Barhatta
 Barkhata
 Baura
+BBSetu_E
+BBSetu_W
 Benapole
 Bhairab_Bazar
 Bhanga
@@ -206,7 +206,6 @@ Ramu
 Rangpur
 Rohanpur
 Ruhia
-SH M Monsur Ali
 Safdarpur
 Saidpur
 Santahar
@@ -216,6 +215,7 @@ Sarishabari
 Sathia_Rajapur
 Satkania
 Setabganj
+SH M Monsur Ali
 Shahaji_Bazar
 Shahrasti
 Shahtali
@@ -228,8 +228,8 @@ Sholoshohor
 Shyamgonj
 Shyampur
 Singia
-Sirajganj_Bazar
 Sirajganjraipur
+Sirajganj_Bazar
 Sitlai
 Sonaimuri
 Sonatola

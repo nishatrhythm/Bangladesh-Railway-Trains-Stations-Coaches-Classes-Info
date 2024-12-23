@@ -6,10 +6,10 @@ Alamdanga
 Ashuganj
 Azampur
 B Sirajul Islam
-BBSetu_E
 Bajitpur
 Banani
 Barhatta
+BBSetu_E
 Benapole
 Bhairab_Bazar
 Bhanga
@@ -101,11 +101,11 @@ Rajshahi
 Ramu
 Rangpur
 Rohanpur
-SH M Monsur Ali
 Saidpur
 Santahar
 Sararchar
 Sarishabari
+SH M Monsur Ali
 Shaistaganj
 Shamshernagar
 Shibchar
