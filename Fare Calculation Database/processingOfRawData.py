@@ -2,8 +2,8 @@ import json
 import os
 
 # Directories for the two folders to compare
-folder1 = '12-Nov-2024'
-folder2 = '13-Nov-2024'
+folder1 = '06-Feb-2025'
+folder2 = '07-Feb-2025'
 output_directory = 'processed'
 
 # Create the output directory if it doesn't exist

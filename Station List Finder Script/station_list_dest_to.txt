@@ -87,6 +87,7 @@ Gachihata
 Gafargaon
 Gaibandha
 Gobra
+GOMDANDI
 Gopalganj
 Gouripur_Myn
 Gunabati
@@ -100,6 +101,7 @@ Hi-Tech City
 Hili
 Ishwardi
 Ishwardi Bypass
+ISLAMABAD
 Islampur_Bazar
 Jaforshahi
 Jamalpur_Town
@@ -134,7 +136,8 @@ Kurigram
 Kushtia_Court
 Laksam
 Lalmonirhat
-Lohagara
+LOHAGARA
+Lohagora
 Lokmanpur
 Lolitnagar
 Madhnagar
@@ -185,7 +188,7 @@ Pachuria
 Padma
 Padmabila
 Pahartali
-Pakshi
+Paksey
 Panchbibi
 Pangsha
 Parbatipur

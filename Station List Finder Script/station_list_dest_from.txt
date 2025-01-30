@@ -7,6 +7,7 @@ Ashuganj
 Azampur
 B Sirajul Islam
 Bajitpur
+Bamondanga
 Banani
 Barhatta
 BBSetu_E
@@ -23,6 +24,7 @@ Bonar_Para
 Boral_Bridge
 Brahmanbaria
 Burimari
+Chakaria
 Chandpur
 Chandpur_Court
 Chapai Nawabganj
@@ -38,6 +40,7 @@ Dewanganj_Bazar
 Dhaka
 Dhaka_Cantonment
 Dinajpur
+Dohazari
 Domar
 Faridpur
 Feni
@@ -70,6 +73,7 @@ Kurigram
 Kushtia_Court
 Laksam
 Lalmonirhat
+Lohagora
 Maijgaon
 Mawa
 Melandah_Bazar
@@ -109,6 +113,7 @@ SH M Monsur Ali
 Shaistaganj
 Shamshernagar
 Shibchar
+Singia
 Sirajganj_Bazar
 Sreemangal
 Sylhet
