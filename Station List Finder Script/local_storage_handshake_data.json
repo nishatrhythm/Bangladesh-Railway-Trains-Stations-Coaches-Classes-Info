@@ -197,7 +197,7 @@
       "city_name": "Azim Nagar",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 769,
@@ -211,7 +211,7 @@
       "city_name": "Badarganj",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 790,
@@ -267,7 +267,7 @@
       "city_name": "Baramchal",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 857,
@@ -281,25 +281,11 @@
       "city_name": "Barkhata",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 369,
       "city_name": "Baura",
-      "city_sequence": 0,
-      "is_top_city": false,
-      "is_enable_for_from": 0
-    },
-    {
-      "city_id": 759,
-      "city_name": "BBSetu_E",
-      "city_sequence": 0,
-      "is_top_city": false,
-      "is_enable_for_from": 1
-    },
-    {
-      "city_id": 782,
-      "city_name": "BBSetu_W",
       "city_sequence": 0,
       "is_top_city": false,
       "is_enable_for_from": 0
@@ -526,7 +512,7 @@
       "city_name": "Chirirbandar",
       "city_sequence": 48,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 835,
@@ -743,7 +729,7 @@
       "city_name": "Hajiganj",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 873,
@@ -760,18 +746,25 @@
       "is_enable_for_from": 1
     },
     {
+      "city_id": 922,
+      "city_name": "HARBANG",
+      "city_sequence": 0,
+      "is_top_city": false,
+      "is_enable_for_from": 0
+    },
+    {
       "city_id": 834,
       "city_name": "Hasanpur",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 41,
       "city_name": "Hatibandha",
       "city_sequence": 41,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 851,
@@ -793,6 +786,13 @@
       "city_sequence": 80,
       "is_top_city": false,
       "is_enable_for_from": 0
+    },
+    {
+      "city_id": 759,
+      "city_name": "Ibrahimabad",
+      "city_sequence": 0,
+      "is_top_city": false,
+      "is_enable_for_from": 1
     },
     {
       "city_id": 72,
@@ -848,7 +848,7 @@
       "city_name": "Janali_Hat",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 51,
@@ -1114,7 +1114,7 @@
       "city_name": "Maijdi Court",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 820,
@@ -1170,7 +1170,7 @@
       "city_name": "Methikanda",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 889,
@@ -1247,7 +1247,7 @@
       "city_name": "Mukundapur",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 581,
@@ -1268,7 +1268,7 @@
       "city_name": "Nachole",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 903,
@@ -1282,7 +1282,7 @@
       "city_name": "Nandina",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 831,
@@ -1317,7 +1317,7 @@
       "city_name": "Narundi",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 825,
@@ -1422,7 +1422,7 @@
       "city_name": "Paksey",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 79,
@@ -1450,14 +1450,14 @@
       "city_name": "Patgram",
       "city_sequence": 42,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 905,
       "city_name": "Patiya",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 898,
@@ -1572,6 +1572,13 @@
       "is_enable_for_from": 0
     },
     {
+      "city_id": 782,
+      "city_name": "Saidabad",
+      "city_sequence": 0,
+      "is_top_city": false,
+      "is_enable_for_from": 0
+    },
+    {
       "city_id": 8,
       "city_name": "Saidpur",
       "city_sequence": 8,
@@ -1597,7 +1604,7 @@
       "city_name": "Sardah_Road",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 840,
@@ -1625,7 +1632,7 @@
       "city_name": "Setabganj",
       "city_sequence": 85,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 760,
@@ -1639,7 +1646,7 @@
       "city_name": "Shahaji_Bazar",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 880,
@@ -1695,14 +1702,14 @@
       "city_name": "Sholoshohor",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 854,
       "city_name": "Shyamgonj",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 890,
@@ -1856,7 +1863,7 @@
       "city_name": "Tushbhandar",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 60,
@@ -2522,14 +2529,6 @@
       "name": "BARENDRA EXPRESS (732)"
     },
     {
-      "model": "09",
-      "name": "EID SPL 9 (09)"
-    },
-    {
-      "model": "10",
-      "name": "EID SPL 10 (10)"
-    },
-    {
       "model": "41",
       "name": "KANCHON INTERCITY COMMUTER (41)"
     },
@@ -2598,9 +2597,9 @@
   "filled_alternative_mobile_update": false,
   "day_count_for_purchase_history": 15,
   "downtime_duration": {
-    "START": "2025-01-28 15:00:00",
-    "END": "2025-01-29 08:00:00",
-    "NOTICE_TEXT": "সম্মানিত যাত্রী সাধারণের সদয় অবগতির জন্য জানানো যাচ্ছে যে, অনিবার্য কারণবশত ট্রেন চলাচল বিঘ্নিত হচ্ছে। ট্রেনের নির্ধারিত সময়ের পূর্বে প্রচলিত নিয়মানুযায়ী রিফান্ড হবে। তবে আপনার নির্ধারিত ট্রেন চলাচল না করলে, পরবর্তীতে টিকিটের পূর্ণ ভাড়া রিফান্ডের জন্য আপনাকে সুযোগ দেওয়া হবে। এই বিষয়ে আপনাদের সর্বাত্মক সহযোগিতা আশা করছি। <br/> অনাকাঙ্ক্ষিত এই বিড়ম্বনার জন্য বাংলাদেশ রেলওয়ে আন্তরিকভাবে দুঃখিত।"
+    "START": "2025-02-04 00:00:00",
+    "END": "2025-02-28 23:59:59",
+    "NOTICE_TEXT": "সম্মানিত যাত্রী, <br /> আপনার অবগতির জন্য জানানো যাচ্ছে যে, বাংলাদেশ রেলওয়ের সিদ্ধান্ত অনুযায়ী পশ্চিমাঞ্চলের দুইটি স্টেশনের নাম (বঙ্গবন্ধু সেতু পশ্চিম ও বঙ্গবন্ধু সেতু পূর্ব) পরিবর্তন হয়েছে।<br /> <br /> তাই আপনাকে বঙ্গবন্ধু সেতু পশ্চিমের (BBSetu_W) পরিবর্তে সায়দাবাদ (SAIDABAD) এবং বঙ্গবন্ধু সেতু পূর্বের (BBSetu_E) পরিবর্তে ইব্রাহিমাবাদ (IBRAHIMABAD) দিয়ে ওয়েবসাইট ও রেলসেবা অ্যাপে টিকেট ক্রয়ের জন্য অনুসন্ধান করার অনুরোধ করা হলো।"
   },
   "release_time_interval_in_minutes": "300",
   "features": {
@@ -2619,11 +2618,11 @@
       "banner": [
         {
           "domain_type": 1,
-          "path": "https://bangladesh-railway.s3-ap-southeast-1.amazonaws.com/production/content-media/ddcea74f82012e917e9007cc6d70bd3c.png",
-          "start_date": "2024-12-23 15:05:00",
-          "end_date": "2025-01-31 23:59:59",
-          "alt": "bkash mobile recharge coupon",
-          "sequence": 2
+          "path": "https://bangladesh-railway.s3-ap-southeast-1.amazonaws.com/production/content-media/BDRAILWAY_TICKET66d3b68a83b1c4cc05aa5b8d1ab3b7ec.jpg",
+          "start_date": "2025-02-01 00:00:00",
+          "end_date": "2027-12-31 17:50:59",
+          "alt": "Bangladesh Railway Home Page Default",
+          "sequence": 1
         }
       ],
       "mid_banner": null,

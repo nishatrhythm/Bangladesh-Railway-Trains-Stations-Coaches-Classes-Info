@@ -5,12 +5,15 @@ Akkelpur
 Alamdanga
 Ashuganj
 Azampur
+Azim Nagar
 B Sirajul Islam
+Badarganj
 Bajitpur
 Bamondanga
 Banani
+Baramchal
 Barhatta
-BBSetu_E
+Barkhata
 Benapole
 Bhairab_Bazar
 Bhanga
@@ -31,6 +34,7 @@ Chapai Nawabganj
 Chatmohar
 Chattogram
 Chilahati
+Chirirbandar
 Choumuhani
 Chuadanga
 Cox's Bazar
@@ -49,12 +53,17 @@ Gachihata
 Gafargaon
 Gaibandha
 Gouripur_Myn
+Hajiganj
 Harashpur
+Hasanpur
+Hatibandha
+Ibrahimabad
 Ishwardi
 Ishwardi Bypass
 Islampur_Bazar
 Jamalpur_Town
 Jamtail
+Janali_Hat
 Jashore
 Jhikargacha
 Joydebpur
@@ -74,16 +83,22 @@ Kushtia_Court
 Laksam
 Lalmonirhat
 Lohagora
+Maijdi Court
 Maijgaon
 Mawa
 Melandah_Bazar
+Methikanda
 Mirpur
 Mohanganj
 Mubarakganj
+Mukundapur
 Mymensingh
+Nachole
+Nandina
 Nangolkot
 Narail
 Narsingdi
+Narundi
 Natore
 Nayapara
 Netrakona
@@ -93,9 +108,12 @@ Noakhali
 Noapara
 Pabna
 Padma
+Paksey
 Panchbibi
 Pangsha
 Parbatipur
+Patgram
+Patiya
 Pirgacha
 Pirganj
 Poradaha
@@ -108,11 +126,16 @@ Rohanpur
 Saidpur
 Santahar
 Sararchar
+Sardah_Road
 Sarishabari
+Setabganj
 SH M Monsur Ali
+Shahaji_Bazar
 Shaistaganj
 Shamshernagar
 Shibchar
+Sholoshohor
+Shyamgonj
 Singia
 Sirajganj_Bazar
 Sreemangal
@@ -120,4 +143,5 @@ Sylhet
 Tangail
 Tarakandi
 Thakurgaon_Road
+Tushbhandar
 Ullapara

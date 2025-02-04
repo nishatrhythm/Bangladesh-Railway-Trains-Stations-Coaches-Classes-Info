@@ -27,8 +27,6 @@ Baramchal
 Barhatta
 Barkhata
 Baura
-BBSetu_E
-BBSetu_W
 Benapole
 Bhairab_Bazar
 Bhanga
@@ -94,11 +92,13 @@ Gunabati
 Hajiganj
 Haldibari
 Harashpur
+HARBANG
 Hasanpur
 Hatibandha
 Hemnagar
 Hi-Tech City
 Hili
+Ibrahimabad
 Ishwardi
 Ishwardi Bypass
 ISLAMABAD
@@ -210,6 +210,7 @@ Rangpur
 Rohanpur
 Ruhia
 Safdarpur
+Saidabad
 Saidpur
 Santahar
 Sararchar
