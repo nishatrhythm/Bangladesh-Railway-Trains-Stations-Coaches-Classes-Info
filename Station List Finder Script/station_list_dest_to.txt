@@ -1,6 +1,5 @@
 Abdulpur
 Aditmari
-Adv. Motiur Rahman
 Ahsanganj
 Akhanagar
 Akhaura
@@ -14,7 +13,6 @@ Ashuganj
 Atharabari
 Azampur
 Azim Nagar
-B Sirajul Islam
 Badarganj
 Badherhat
 Badiakhali
@@ -104,6 +102,7 @@ Ishwardi Bypass
 ISLAMABAD
 Islampur_Bazar
 Jaforshahi
+Jagannathgonj_Bazar
 Jamalpur_Town
 Jamtail
 Janali_Hat
@@ -189,6 +188,7 @@ Padma
 Padmabila
 Pahartali
 Paksey
+Panchagarh
 Panchbibi
 Pangsha
 Parbatipur
@@ -210,7 +210,6 @@ Rangpur
 Rohanpur
 Ruhia
 Safdarpur
-Saidabad
 Saidpur
 Santahar
 Sararchar
@@ -237,6 +236,7 @@ Sirajganj_Bazar
 Sitlai
 Sonaimuri
 Sonatola
+SOYDABAD
 Sreemangal
 Sreepur
 Sultanpur

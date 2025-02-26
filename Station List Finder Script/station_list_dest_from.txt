@@ -6,7 +6,6 @@ Alamdanga
 Ashuganj
 Azampur
 Azim Nagar
-B Sirajul Islam
 Badarganj
 Bajitpur
 Bamondanga
@@ -20,6 +19,7 @@ Bhanga
 Bhanga_Junction
 Bhanugach
 Bheramara
+Bhuapur
 Biman_Bandar
 Birampur
 Bogura
@@ -46,12 +46,14 @@ Dhaka_Cantonment
 Dinajpur
 Dohazari
 Domar
+Dulahazara
 Faridpur
 Feni
 Fulbari
 Gachihata
 Gafargaon
 Gaibandha
+GOMDANDI
 Gouripur_Myn
 Hajiganj
 Harashpur
@@ -60,6 +62,7 @@ Hatibandha
 Ibrahimabad
 Ishwardi
 Ishwardi Bypass
+ISLAMABAD
 Islampur_Bazar
 Jamalpur_Town
 Jamtail
@@ -68,8 +71,10 @@ Jashore
 Jhikargacha
 Joydebpur
 Joypurhat
+Kalukhali
 Kashiani
 Kaunia
+Kendua_Bazar
 Khoksha
 Khulna
 Kishorganj
@@ -82,14 +87,17 @@ Kurigram
 Kushtia_Court
 Laksam
 Lalmonirhat
+LOHAGARA
 Lohagora
 Maijdi Court
 Maijgaon
+Manikkhali
 Mawa
 Melandah_Bazar
 Methikanda
 Mirpur
 Mohanganj
+Montola
 Mubarakganj
 Mukundapur
 Mymensingh
@@ -109,6 +117,7 @@ Noapara
 Pabna
 Padma
 Paksey
+Panchagarh
 Panchbibi
 Pangsha
 Parbatipur
@@ -116,6 +125,7 @@ Patgram
 Patiya
 Pirgacha
 Pirganj
+Piyarpur
 Poradaha
 Quasba
 Rajbari
@@ -128,6 +138,7 @@ Santahar
 Sararchar
 Sardah_Road
 Sarishabari
+Satkania
 Setabganj
 SH M Monsur Ali
 Shahaji_Bazar
@@ -138,6 +149,7 @@ Sholoshohor
 Shyamgonj
 Singia
 Sirajganj_Bazar
+Sonaimuri
 Sreemangal
 Sylhet
 Tangail
