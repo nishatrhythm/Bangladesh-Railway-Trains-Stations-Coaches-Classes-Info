@@ -30,7 +30,7 @@ Burimari
 Chakaria
 Chandpur
 Chandpur_Court
-Chapai Nawabganj
+Chapainawabganj
 Chatmohar
 Chattogram
 Chilahati
@@ -93,6 +93,7 @@ Maijdi Court
 Maijgaon
 Manikkhali
 Mawa
+Meher
 Melandah_Bazar
 Methikanda
 Mirpur
@@ -133,6 +134,7 @@ Rajshahi
 Ramu
 Rangpur
 Rohanpur
+Ruhia
 Saidpur
 Santahar
 Sararchar
