@@ -7,18 +7,25 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # Initialize colorama
 init(autoreset=True)
 
-# Load stations from stations_en.json
-with open('stations_en.json', 'r', encoding='utf-8') as file:
-    stations_data = json.load(file)
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
-stations = stations_data['stations']
+# Load stations from stations_from.json and stations_to.json
+with open(os.path.join(script_dir, 'stations_from.json'), 'r', encoding='utf-8') as file:
+    from_stations_data = json.load(file)
+
+with open(os.path.join(script_dir, 'stations_to.json'), 'r', encoding='utf-8') as file:
+    to_stations_data = json.load(file)
+
+from_stations = from_stations_data['stations']
+to_stations = to_stations_data['stations']
 
 # Date for the journey (change as needed)
-date_of_journey = "13-Nov-2024"
+date_of_journey = "14-Jun-2025"
 seat_class = "S_CHAIR"
 
-# Create a directory named with the date if it doesn't exist
-output_directory = date_of_journey
+# Create a directory named with the date if it doesn't exist in the script's directory
+output_directory = os.path.join(script_dir, date_of_journey)
 if not os.path.exists(output_directory):
     os.makedirs(output_directory)
 
@@ -72,12 +79,12 @@ def fetch_and_save(from_city, to_city):
     else:
         return f"{Fore.RED}Failed to fetch data for {from_city} to {to_city}. Status code: {response.status_code}"
 
-# Run concurrent requests
+# Run concurrent requests - only from stations in from_stations to all stations in to_stations
 with ThreadPoolExecutor(max_workers=20) as executor:
     future_to_trip = {
         executor.submit(fetch_and_save, from_city, to_city): (from_city, to_city)
-        for from_city in stations
-        for to_city in stations
+        for from_city in from_stations
+        for to_city in to_stations
     }
     
     for future in as_completed(future_to_trip):

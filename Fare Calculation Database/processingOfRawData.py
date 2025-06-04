@@ -1,10 +1,12 @@
-import json
-import os
+import json, os
 
-# Directories for the two folders to compare
-folder1 = '06-Feb-2025'
-folder2 = '07-Feb-2025'
-output_directory = 'processed'
+# Get the directory where the script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Directories for the two folders to compare (located in script directory)
+folder1 = os.path.join(script_dir, '13-Jun-2025')
+folder2 = os.path.join(script_dir, '14-Jun-2025')
+output_directory = os.path.join(script_dir, 'processed')
 
 # Create the output directory if it doesn't exist
 if not os.path.exists(output_directory):
@@ -20,11 +22,15 @@ def save_json(data, file_path):
     with open(file_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4)
 
+# Function to remove apostrophes from station names
+def clean_station_name(name):
+    return name.replace("'", "")
+
 # Function to extract and process relevant data from the JSON
 def extract_relevant_data(data):
     if 'data' in data and 'trains' in data['data'] and data['data']['trains']:
-        origin = data['data']['trains'][0]['origin_city_name']
-        destination = data['data']['trains'][0]['destination_city_name']
+        origin = clean_station_name(data['data']['trains'][0]['origin_city_name'])
+        destination = clean_station_name(data['data']['trains'][0]['destination_city_name'])
         info_dict = {}
 
         # Loop through all trains to collect unique seat types
@@ -56,7 +62,10 @@ all_files = files_in_folder1.union(files_in_folder2)
 for filename in all_files:
     path1 = os.path.join(folder1, filename)
     path2 = os.path.join(folder2, filename)
-    output_path = os.path.join(output_directory, filename)
+    
+    # Clean the output filename by removing apostrophes
+    clean_filename = filename.replace("'", "")
+    output_path = os.path.join(output_directory, clean_filename)
 
     if filename in files_in_folder1 and filename in files_in_folder2:
         # Load and process both files
@@ -90,8 +99,12 @@ for filename in all_files:
 
             else:
                 # Save separately due to mismatch in origin/destination
-                save_json(processed_data1, os.path.join(output_directory, f"{filename}_12-Nov-2024.json"))
-                save_json(processed_data2, os.path.join(output_directory, f"{filename}_13-Nov-2024.json"))
+                clean_filename_folder1 = filename.replace("'", "")
+                clean_filename_folder2 = filename.replace("'", "")
+                folder1_name = os.path.basename(folder1)
+                folder2_name = os.path.basename(folder2)
+                save_json(processed_data1, os.path.join(output_directory, f"{clean_filename_folder1}_{folder1_name}.json"))
+                save_json(processed_data2, os.path.join(output_directory, f"{clean_filename_folder2}_{folder2_name}.json"))
                 print(f"Saved separately due to origin/destination mismatch: {filename}")
 
     elif filename in files_in_folder1:
