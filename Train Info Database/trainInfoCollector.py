@@ -10,7 +10,7 @@ with open(trains_json_path, 'r', encoding='utf-8') as file:
     train_data = json.load(file)
 
 # Extract train names and models
-trains = [(train.rsplit('(', 1)[0].strip(), train.split('(')[-1].split(')')[0]) for train in train_data['trains']]
+trains = [(train['train_name'].rsplit('(', 1)[0].strip(), train['train_number']) for train in train_data['trains']]
 
 # Date for the request (can be modified as needed)
 departure_date = "2025-04-14"

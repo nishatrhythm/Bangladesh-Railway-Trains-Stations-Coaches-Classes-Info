@@ -54,6 +54,12 @@
           "is_international": true
         },
         {
+          "short_code": "amex",
+          "name": "Amex",
+          "value": "amex",
+          "is_international": true
+        },
+        {
           "short_code": "nexus-debit",
           "name": "DBBL Nexus",
           "value": "nexus",
@@ -352,7 +358,7 @@
       "city_name": "Bidyaganj",
       "city_sequence": 0,
       "is_top_city": false,
-      "is_enable_for_from": 0
+      "is_enable_for_from": 1
     },
     {
       "city_id": 757,
@@ -950,6 +956,13 @@
       "is_enable_for_from": 1
     },
     {
+      "city_id": 925,
+      "city_name": "Khatra",
+      "city_sequence": 0,
+      "is_top_city": false,
+      "is_enable_for_from": 0
+    },
+    {
       "city_id": 37,
       "city_name": "Khoksha",
       "city_sequence": 37,
@@ -1274,6 +1287,13 @@
     {
       "city_id": 903,
       "city_name": "Naliagram",
+      "city_sequence": 0,
+      "is_top_city": false,
+      "is_enable_for_from": 0
+    },
+    {
+      "city_id": 924,
+      "city_name": "Nandangachi",
       "city_sequence": 0,
       "is_top_city": false,
       "is_enable_for_from": 0
@@ -2429,6 +2449,86 @@
       "name": "CHILAHATI EXPRESS (806)"
     },
     {
+      "model": "1001",
+      "name": "NARAYANGANJ COMMUTER 1 (1001)"
+    },
+    {
+      "model": "1002",
+      "name": "NARAYANGANJ COMMUTER 2 (1002)"
+    },
+    {
+      "model": "1003",
+      "name": "NARAYANGANJ COMMUTER 3 (1003)"
+    },
+    {
+      "model": "1004",
+      "name": "NARAYANGANJ COMMUTER 4 (1004)"
+    },
+    {
+      "model": "1005",
+      "name": "NARAYANGANJ COMMUTER 5 (1005)"
+    },
+    {
+      "model": "1006",
+      "name": "NARAYANGANJ COMMUTER 6 (1006)"
+    },
+    {
+      "model": "1007",
+      "name": "NARAYANGANJ COMMUTER 7 (1007)"
+    },
+    {
+      "model": "1008",
+      "name": "NARAYANGANJ COMMUTER 8 (1008)"
+    },
+    {
+      "model": "1009",
+      "name": "NARAYANGANJ COMMUTER 9 (1009)"
+    },
+    {
+      "model": "1010",
+      "name": "NARAYANGANJ COMMUTER 10 (1010)"
+    },
+    {
+      "model": "1011",
+      "name": "NARAYANGANJ COMMUTER 11 (1011)"
+    },
+    {
+      "model": "1012",
+      "name": "NARAYANGANJ COMMUTER 12 (1012)"
+    },
+    {
+      "model": "1013",
+      "name": "NARAYANGANJ COMMUTER 13 (1013)"
+    },
+    {
+      "model": "1014",
+      "name": "NARAYANGANJ COMMUTER 14 (1014)"
+    },
+    {
+      "model": "1015",
+      "name": "NARAYANGANJ COMMUTER 15 (1015)"
+    },
+    {
+      "model": "1016",
+      "name": "NARAYANGANJ COMMUTER 16 (1016)"
+    },
+    {
+      "model": "61",
+      "name": "LALMONI COMMUTER (61)"
+    },
+    {
+      "model": "62",
+      "name": "LALMONI COMMUTER (62)"
+    },
+    {
+      "model": "65",
+      "name": "BURIMARI COMMUTER (65)"
+    },
+    {
+      "model": "66",
+      "name": "BURIMARI COMMUTER (66)"
+    },
+    {
       "model": "813",
       "name": "COXS BAZAR EXPRESS (813)"
     },
@@ -2533,9 +2633,9 @@
   "filled_alternative_mobile_update": false,
   "day_count_for_purchase_history": 15,
   "downtime_duration": {
-    "START": "2025-03-09 14:15:00",
-    "END": "2025-03-12 23:59:59",
-    "NOTICE_TEXT": "যমুনা সেতুর সমন্বিত দূরত্ব বৃদ্ধির কারণে, এই সেতুর উপর দিয়ে চলাচলকারী সকল ট্রেনের ভাড়া বর্ধিত হারে সমন্বয় করা হয়েছে, যা ১৯-০৩-২০২৫ থেকে কার্যকর করা হয়েছে।"
+    "START": "2025-05-20 14:00:00",
+    "END": "2025-06-15 23:59:59",
+    "NOTICE_TEXT": "আসন্ন ঈদ-উল-আযহা ২০২৫ ফেরত যাত্রার টিকেট বিক্রয় - পশ্চিমাঞ্চল (West Zone) এবং পূর্বাঞ্চল (East Zone), উভয় অঞ্চলের ট্রেনের টিকেট সকাল ০৮:০০ ঘটিকা থেকে অনলাইনে পাওয়া যাবে।<button type='button' id='modalLink'>বিস্তারিত</button><br/><br/>ঈদ অগ্রিম ও ফেরত যাত্রার টিকিট রিফান্ড করা যাবে না এবং একজন যাত্রী উল্লিখিত ঈদ অগ্রিম যাত্রা ও ফেরত যাত্রার ক্ষেত্রে সর্বোচ্চ ১ বার করে টিকিট ক্রয় করতে পারবেন ।"
   },
   "release_time_interval_in_minutes": "300",
   "features": {
@@ -2548,14 +2648,14 @@
   "is_eid_journey": false,
   "is_eid_return": false,
   "eid_notice_enabled": true,
-  "eid_notice_text": "For journey dates (12th to 16th June 2024), users can do only 1 transaction and purchase maximum 4 seat(s). Same rule is applicable for the return journey dates (20th to 24th June 2024) - users can do only 1 transaction and purchase maximum 4 seats. The Eid tickets are non-refundable.",
+  "eid_notice_text": "For journey dates (31st May to 7th June 2025), users can do only 1 transaction and purchase maximum 4 seat(s). Same rule is applicable for the return journey dates (8th to 15th June, 2025) - users can do only 1 transaction and purchase maximum 4 seats. The Eid tickets are non-refundable.",
   "media": {
     "home": {
       "banner": [
         {
           "domain_type": 1,
           "path": "https://bangladesh-railway.s3-ap-southeast-1.amazonaws.com/production/content-media/BDRAILWAY_TICKET66d3b68a83b1c4cc05aa5b8d1ab3b7ec.jpg",
-          "start_date": "2025-02-01 00:00:00",
+          "start_date": "2025-04-02 00:00:00",
           "end_date": "2027-12-31 17:50:59",
           "alt": "Bangladesh Railway Home Page Default",
           "sequence": 1

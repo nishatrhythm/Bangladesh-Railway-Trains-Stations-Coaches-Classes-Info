@@ -121,6 +121,7 @@ Katakhali
 Kaunia
 Kawgaon
 Kendua_Bazar
+Khatra
 Khoksha
 Kholahati
 Khulna
@@ -168,6 +169,7 @@ Muladhuli
 Mymensingh
 Nachole
 Naliagram
+Nandangachi
 Nandina
 Nangolkot
 Narail
