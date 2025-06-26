@@ -7,6 +7,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # Initialize colorama
 init(autoreset=True)
 
+# Replace with your authorization token
+token = 'your_token_here'
+
 # Get the directory where the script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -55,8 +58,9 @@ def fetch_and_save(from_city, to_city):
 
     # Request URL
     url = f"https://railspaapi.shohoz.com/v1.0/web/bookings/search-trips-v2?from_city={from_city}&to_city={to_city}&date_of_journey={date_of_journey}&seat_class={seat_class}"
-    response = requests.get(url)
-    
+    headers = {"Authorization": f"Bearer {token}"}
+    response = requests.get(url, headers=headers)
+
     if response.status_code == 200:
         response_data = response.json()
         
